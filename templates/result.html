@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Hasil Analisa Medis</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <h1>🩺 Hasil Analisa</h1>
+    <div class="result-box">
+        {{ hasil|safe }}
+    </div>
+    <br><br>
+    <div class="center">
+        <a href="/">🔙 Kembali ke Form</a> | 
+        <a href="/download-pdf">⬇️ Download Hasil PDF</a>
+    </div>
+</body>
+</html>

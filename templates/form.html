@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Anamnesis Pasien</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <h1>📝 Form Anamnesis Pasien</h1>
+    <form method="post">
+        <label>Nama Pasien (Opsional):</label>
+        <input type="text" name="nama">
+
+        <label>Usia:</label>
+        <input type="number" name="usia" required>
+
+        <label>Jenis Kelamin:</label>
+        <select name="jenis_kelamin" required>
+            <option value="Laki-laki">Laki-laki</option>
+            <option value="Perempuan">Perempuan</option>
+        </select>
+
+        <label>Keluhan Utama:</label>
+        <textarea name="keluhan_utama" rows="3" required></textarea>
+
+        <label>Riwayat Penyakit Sebelumnya:</label>
+        <textarea name="riwayat_penyakit" rows="3" required></textarea>
+
+        <label>Pemeriksaan Fisik:</label>
+        <textarea name="pemeriksaan_fisik" rows="3" required></textarea>
+
+        <label>Gejala Tambahan:</label>
+        <textarea name="gejala_tambahan" rows="3" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
