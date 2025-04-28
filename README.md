@@ -1,54 +1,27 @@
 # Diagnosa Open Source Medis berbasis ChatGPT
 
+[![MIT License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![Made with FastAPI](https://img.shields.io/badge/Made%20with-FastAPI-009688)](https://fastapi.tiangolo.com/)
+[![OpenAI Powered](https://img.shields.io/badge/OpenAI-Powered-blue)](https://openai.com/)
+
+---
+
+## 🎯 Deskripsi
+
 Proyek ini bertujuan untuk membantu dokter dan klinik dalam:
 - Menyusun daftar differential diagnosis.
 - Membuat rencana tatalaksana awal.
 - Memberikan edukasi pasien.
 - Menyarankan pemeriksaan penunjang.
 
-## 📦 Teknologi yang Digunakan
-- FastAPI
-- OpenAI ChatGPT API
-- FPDF2 untuk membuat PDF
-- Jinja2 Templates
-- Python 3.9+
+Dibangun dengan menggunakan teknologi FastAPI, OpenAI, dan Python.
+
+---
 
 ## 🚀 Cara Menjalankan
-1. Clone repository ini:
-```
+
+### 1. Clone repository ini:
+
+```bash
 git clone https://github.com/yourusername/diagnosa-open-source.git
-```
-
-2. Masuk ke folder project:
-```
 cd diagnosa-open-source
-```
-
-3. Buat virtual environment dan aktifkan:
-```
-python3 -m venv env
-source env/bin/activate
-```
-
-4. Install dependencies:
-```
-pip install -r requirements.txt
-```
-
-5. Siapkan file .env dengan isi:
-```
-OPENAI_API_KEY=your_openai_api_key
-```
-
-6. Jalankan server:
-```
-uvicorn main:app --reload
-```
-
-7. Akses di browser:
-```
-http://127.0.0.1:8000
-```
-
-## 📃 License
-MIT License
